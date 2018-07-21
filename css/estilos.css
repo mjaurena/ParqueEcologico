@@ -1,3 +1,12 @@
+header{
+  padding: 3px 10px;
+  margin-bottom: 5px;
+  background: -webkit-linear-gradient(left, #5CA861 , #BADFBC);
+  background: -o-linear-gradient(right, #5CA861 , #BADFBC);
+  background: -moz-linear-gradient(right, #5CA861 , #BADFBC);
+  background: linear-gradient(to right, #5CA861 , #BADFBC);
+  border-radius: 10px;
+}
 body{
   margin-left: 15%;
   font-family: Verdana;
@@ -10,6 +19,11 @@ body{
 #contenido{
   padding: 10px;
   background-color: F9F7F3;
+  background: url(../imagen3.jpg) left top repeat;
+  border-radius: 6px;
+}
+#contenido p{
+  font-weight: bold;
 }
 footer{
   clear: both;
@@ -37,4 +51,7 @@ header img{
 #contenido p img{
   float: right;
   height: 40%;
+  border: 2px solid #605B56;
+  border-radius: 4px;
+  margin: 3px;
 }
